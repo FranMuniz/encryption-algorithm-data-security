@@ -2,7 +2,7 @@
 
 ## 📜 Descrição
 
-Este projeto tem como objetivo demonstrar a aplicação de **criptografia** em dados sensíveis, como informações pessoais (ex: nome, CPF) e dados bancários (ex: número de conta bancária). A aplicação utiliza a biblioteca **cryptography** para realizar a criptografia e descriptografia de arquivos CSV.
+Este projeto tem como objetivo demonstrar a aplicação de criptografia em dados sensíveis, como informações pessoais (ex: nome, CPF) e dados bancários (ex: número de conta bancária). A aplicação utiliza a biblioteca **cryptography** para realizar a criptografia e descriptografia de arquivos CSV. Este projeto é uma aplicação prática desenvolvida como parte do módulo de segurança da informação do curso de pós-graduação em Engenharia e Arquitetura de Dados.
 
 ### 🛡️ O que ele faz:
 - **Gera uma chave de criptografia** para proteger os dados.
