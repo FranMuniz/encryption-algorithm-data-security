@@ -1,15 +1,15 @@
 # 🔐 Aplicação Prática de Criptografia de Dados Sensíveis
 
-## 📜 Descrição
+## Descrição
 
 Este projeto tem como objetivo demonstrar a aplicação de criptografia em dados sensíveis, como informações pessoais (ex: nome, CPF) e dados bancários (ex: número de conta bancária). A aplicação utiliza a biblioteca **cryptography** para realizar a criptografia e descriptografia de arquivos CSV. Este projeto é uma aplicação prática desenvolvida como parte do módulo de segurança da informação do curso de pós-graduação em Engenharia e Arquitetura de Dados.
 
-### 🛡️ O que ele faz:
+### O que ele faz:
 - **Gera uma chave de criptografia** para proteger os dados.
 - **Criptografa e descriptografa** arquivos CSV contendo dados sensíveis.
 - Permite que a chave de criptografia seja fornecida para **descriptografar** os dados corretamente.
 
-## ⚙️ Funcionalidades
+## Funcionalidades
 
 - **🔑 Gerar chave de criptografia**: Gera e salva uma chave de criptografia para ser usada na criptografia/descriptografia dos dados.
 - **🔒 Criptografar dados**: Criptografa uma base de dados em formato CSV, protegendo as colunas sensíveis.
@@ -17,14 +17,14 @@ Este projeto tem como objetivo demonstrar a aplicação de criptografia em dados
 
 ## 🚨 Riscos
 
-- **⚠️ Exposição de dados sensíveis**: A chave de criptografia deve ser mantida em segurança. Caso a chave seja perdida ou comprometida, os dados não poderão ser recuperados.
-- **💣 Criptografia incorreta**: Garantir que a chave correta seja usada para descriptografar os dados.
+- **Exposição de dados sensíveis**: A chave de criptografia deve ser mantida em segurança. Caso a chave seja perdida ou comprometida, os dados não poderão ser recuperados.
+- **Criptografia incorreta**: Garantir que a chave correta seja usada para descriptografar os dados.
 
-## 📊 Tipos de Dados
+## Tipos de Dados
 
-- **📛 Nome**: Informação pessoal (Criticidade média)
-- **🆔 CPF**: Informação sensível (Criticidade alta)
-- **💳 Dados Bancários**: Informação altamente sensível (Criticidade alta)
+- **Nome**: Informação pessoal (Criticidade média)
+- **CPF**: Informação sensível (Criticidade alta)
+- **Dados Bancários**: Informação altamente sensível (Criticidade alta)
 
 ## 🔧 Ferramentas Utilizadas
 
